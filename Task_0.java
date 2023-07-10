@@ -111,18 +111,19 @@ public class Task_0 {
          * Пример 3: а = 3, b = 0, ответ: 1
          */
         System.out.println("Введите число а: ");
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        System.out.println("Введите число b: ");
-        int b = scanner.nextInt();
-        if (a == 1 || b == 0) {
-            return 1;
+        try (Scanner scanner = new Scanner(System.in)) {
+            int a = scanner.nextInt();
+            System.out.println("Введите число b: ");
+            int b = scanner.nextInt();
+            if (a == 1 || b == 0) {
+                return 1;
+            }
+            double res = 1;
+            for (int i = 0; i < Math.abs(b); i++) {
+                res = res * a;
+            }
+            return b > 0? res : 1 / res;
         }
-        double res = 1;
-        for (int i = 0; i < Math.abs(b); i++) {
-            res = res * a;
-        }
-        return b > 0? res : 1 / res;
     }
 
 }
