@@ -1,3 +1,4 @@
+package Seminar_1;
 /**
  * <aside>
  **Текст задачи:**

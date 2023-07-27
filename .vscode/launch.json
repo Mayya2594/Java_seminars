@@ -1,0 +1,84 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Seminar_2.HW_2.Task_2.BubbleSort",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Sem_2_HW_1",
+            "request": "launch",
+            "mainClass": "Sem_2_HW_1",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Printer2",
+            "request": "launch",
+            "mainClass": "Printer2",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Sem2_HW1",
+            "request": "launch",
+            "mainClass": "Sem2_HW1",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Printer",
+            "request": "launch",
+            "mainClass": "Sem2_HW_1.src.Printer",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Sem_2",
+            "request": "launch",
+            "mainClass": "Sem_2",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "HW_sem_1",
+            "request": "launch",
+            "mainClass": "Seminar_1.HW_sem_1",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Printer(1)",
+            "request": "launch",
+            "mainClass": "Seminar_1.Printer",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Task_0",
+            "request": "launch",
+            "mainClass": "Seminar_1.Task_0",
+            "projectName": "Java_seminars_5d5e2571"
+        },
+        {
+            "type": "java",
+            "name": "Printer(2)",
+            "request": "launch",
+            "mainClass": "Seminar_2.HW_2.Task_1.Printer",
+            "projectName": "Java_seminars_5d5e2571"
+        }
+    ]
+}
